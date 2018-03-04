@@ -1,6 +1,5 @@
 'use strict'
 import React, {
-  PropTypes,
   Component,
 } from 'react'
 
@@ -13,6 +12,8 @@ import {
   View,
   Platform,
 } from 'react-native'
+
+import PropTypes from 'prop-types'
 
 import emoji from 'emoji-datasource'
 
